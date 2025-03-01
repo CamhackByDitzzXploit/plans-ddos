@@ -11,8 +11,6 @@ echo $biru"=========================================="
 echo $biru"     Silahkan Login Untuk Menggunakan  "
 echo $biru"=========================================="
 echo
-sleep 3
-xdg-open https://youtube.com/@DitzzXploit
 read -p "Enter Your Password: " pass
 if [ $pass = DitzzXploit ]
 then
@@ -33,12 +31,12 @@ echo
 echo  $merah "1). DDOS TOOLS 1                  |"
 echo  $merah "2). DDOS TOOLS 2                  |"
 echo  $merah "3). DDOS TOOLS PROXY              |"
-echo  $merah "4). AUTO DEFACER                  |"
-echo  $merah "5). Spam Pairing ( Process )      |"
+echo  $merah "4). AUTO DEFACER          ( vip )        |"
+echo  $merah "5). Spam Pairing ( Process )   (vip)   |"
 echo  $merah "6). SERVER CHECKER                |"
-echo  $merah "7). Generator Username & Pass     |"
+echo  $merah "7). Generator Username & Pass  (vip)   |"
 echo  $merah "8). DDOS TRAFIC                   |"
-echo  $merah "9). Auto Xploit                   |"
+echo  $merah "9). Auto Xploit   ( vip )              |"
 echo  $merah "10). EXIT                         |"
 echo
 echo  $merah"+++++++++++++++++++++++++++++++++++|"
@@ -61,12 +59,14 @@ fi
 
 if [ $dont = 4 ]
 then
-python white-deface.py
+echo "server vip"
+exit
 fi
 
 if [ $dont = 5 ]
 then
 echo "masih Prosess Bg"
+exit
 fi
 
 if [ $dont = 6 ]
@@ -76,7 +76,8 @@ fi
 
 if [ $dont = 7 ]
 then
-python usnm-pas.py
+echo "Server Vip"
+exit
 fi
 
 if [ $dont = 8 ]
